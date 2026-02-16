@@ -1,0 +1,4 @@
+{
+  "posts": [{ "id": 1, "title": "Hello World", "content": "This is a dummy post." }],
+  "comments": [{ "id": 1, "postId": 1, "text": "Great post!" }]
+}
