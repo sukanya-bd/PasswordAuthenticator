@@ -8,18 +8,11 @@ export const getProperties = async () => {
   return res.json();
 };
 
-export const addProperties = async properlist => {
-  const results = [];
-
-  for (const property of properlist) {
-    const res = await fetch(PROPERTIES_BASE_URL, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(property)
-    });
-    const data = await res.json();
-    results.push(data);
-  }
-
-  return results;
+export const addProperty = async property => {
+  const res = await fetch(PROPERTIES_BASE_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(property)
+  });
+  return res.json();
 };
