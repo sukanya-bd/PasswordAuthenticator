@@ -49,5 +49,55 @@
       "name": "John Doe",
       "email": "john@example.com"
     }
+  ],
+  "properties": [
+    {
+      "property_id": "p_1",
+      "property_name": "Whispering Pines",
+      "property_image": "image_7",
+      "property_price": "150,000"
+    },
+    {
+      "property_id": "p_2",
+      "property_name": "Silverwood Manor",
+      "property_image": "image_1",
+      "property_price": "100,000"
+    },
+    {
+      "property_id": "p_3",
+      "property_name": "Rosewood Estate",
+      "property_image": "image_2",
+      "property_price": "120,000"
+    },
+    {
+      "property_id": "p_4",
+      "property_name": "The Gables",
+      "property_image": "image_3",
+      "property_price": "100,000"
+    },
+    {
+      "property_id": "p_5",
+      "property_name": "Willowbrook",
+      "property_image": "image_5",
+      "property_price": "150,000"
+    },
+    {
+      "property_id": "p_6",
+      "property_name": "Autumn Ridge",
+      "property_image": "image_6",
+      "property_price": "100,000"
+    },
+    {
+      "property_id": "p_7",
+      "property_name": "Larkspur Lodge",
+      "property_image": "image_1",
+      "property_price": "120,000"
+    },
+    {
+      "property_id": "p_8",
+      "property_name": "Golden Meadows",
+      "property_image": "image_8",
+      "property_price": "100,000"
+    }
   ]
 }

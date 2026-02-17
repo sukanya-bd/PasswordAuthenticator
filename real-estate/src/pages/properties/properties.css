@@ -1,0 +1,22 @@
+.properties-content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer-icons {
+  display: flex;
+  margin-top: -10px;
+}
+
+.add-property-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
